@@ -8,7 +8,7 @@ const Cards = props => {
           new Card component for each passing the card as the only prop*/}
           {props.cards.map((item , index) => {
             return(
-              <Card card={item}  key={index} />
+              <Card card={item}  key={index} {...props} />
             )
           })}
     </div>
