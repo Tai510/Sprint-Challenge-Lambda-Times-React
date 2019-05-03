@@ -9,7 +9,7 @@ const Tabs = props => {
             give the tab component a `selectTabHandler`, the `selectedTab`, and the `tab` itself as props*/}
             {props.tabs.map((item , index) => {
               return (
-                <Tab tab={item} key={index} />
+                <Tab  tab={item} key={index} />
               )
             })}
       </div>
